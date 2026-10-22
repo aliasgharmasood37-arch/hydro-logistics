@@ -1,0 +1,25 @@
+Hydro Customs · logistics desk folder
+Generated 2026-10-22 by scripts/make-handover.mjs in the main project.
+
+This folder is GENERATED. Do not edit the scripts in it - a fix made here is lost the next
+time it is rebuilt, and the main project will not have it. Ask Ali to re-run:
+    node scripts/make-handover.mjs --go
+
+Commands she runs:
+    node scripts/xb-book.mjs
+    node scripts/xb-quote.mjs
+    node scripts/xb-cancel.mjs
+    node scripts/_book1.mjs
+    node scripts/_pin.mjs
+    node scripts/cancelmulti.mjs
+    node scripts/_trk.mjs
+    node scripts/_trkfull.mjs
+    node scripts/mp-clean.mjs
+    node scripts/can-ship.mjs
+    node scripts/packlist.mjs
+    node scripts/pdfmerge.mjs
+    node scripts/_mkcustom.mjs
+
+NOT in this folder, on purpose: Amazon, Meta ads, WhatsApp, Flipkart, IndiaMART, the Primo
+import, the quote tools, and the n8n flow sources. Their keys are not in the .env either,
+so those scripts could not run even if they were copied in.

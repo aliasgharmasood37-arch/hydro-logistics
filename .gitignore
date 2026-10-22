@@ -1,0 +1,13 @@
+# The keys. NEVER commit this - it holds live Shopify, courier and n8n credentials,
+# and anything committed stays in the history even after it is deleted.
+.env
+.env.*
+
+# Shipping labels: customer names, addresses and phone numbers.
+labels/*.pdf
+labels/*.PDF
+
+node_modules/
+*.log
+Thumbs.db
+.DS_Store
